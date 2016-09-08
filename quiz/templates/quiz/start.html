@@ -20,12 +20,11 @@
 	<div class="col-md-6 middle"><h1>Pick one quiz!</h1><br>
 	You are so lucky to have found this page. Click on one of the quizzes below to see how you cope with it! <br><br>
 
-	{% for quiz in quizzes %}
+		{% for quiz in quizzes %}
     <p><a href="{% url 'quiz_page' quiz.quiz_number %}">
         {{ quiz.name }}
     </a></p>
 {% endfor %}
-
 
 	<a href="file:///Users/jobjo/Desktop/QUIZ%20TEMPLATES/quiz-templates/quiz.html"><h2>Quiz 1:</h2>Lorem ipsum dolor</a><br>
 	<a href="file:///Users/jobjo/Desktop/QUIZ%20TEMPLATES/quiz-templates/quiz.html"><h2>Quiz 2:</h2>sit amet, consectetur</a><br>
