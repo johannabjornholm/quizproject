@@ -1,0 +1,98 @@
+body { 
+background: #deffff; 
+font: 12pt/1.4 "Helvetica Neue", "Helvetica", serif; } 
+
+h1 
+{ 	color: #d71bff; 
+	font: 24pt/1.4 "Lucida Console"; 
+	text-align: center; 
+	text-transform: uppercase; 
+	font-weight: bold; } 
+a 
+{ color: #d71bff; 
+	font-weight: bold; 
+	background-color: #fdff4c;  } 
+
+p { border-bottom: 1px solid #d71bff; 
+	padding-bottom: 5px; }
+
+ul
+{ 
+background: #fdff4c; 
+font: 12pt/1.4 "Lucida Console", serif; 
+margin: 0 auto; }
+
+h2
+{ color: #d71bff; 
+	font: 12pt/1 "Lucida Console"; 
+	font-weight: bold; 
+	}
+
+	h3
+{ color: #d71bff; 
+	font: 11pt/1 "Lucida Console"; 
+	font-weight: normal;
+	text-align: center;  }
+
+		h4
+{ color: #fdff4c; 
+	font: 18pt/1 "Lucida Console"; 
+	font-weight: bold;
+	background: url("/Users/jobjo/Desktop/QUIZ TEMPLATES/quiz-templates/IMG/large.png");
+	background-size: 70px;
+	text-align: center; 
+	vertical-align: middle; 
+	padding-top: 20px;
+	min-height: 65px;
+}
+
+
+.image1
+{
+	align-content: center;
+	background: url("/Users/jobjo/Desktop/QUIZ TEMPLATES/quiz-templates/IMG/palm2.png");
+	height: 100%;
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.image2
+{
+	align-content: center;
+	background: url("/Users/jobjo/Desktop/QUIZ TEMPLATES/quiz-templates/IMG/palm3.png");
+	height: 100%;
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-position: left;
+
+
+}
+.middle
+{
+	align-content: center;
+
+
+}
+
+.button {
+    background-color: #d71bff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 8px solid #fdff4c;
+
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
