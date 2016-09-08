@@ -17,19 +17,15 @@
 
 <div class="col-md-12"><h4>Johanna Björnholm</h4></div>
 	<div class="col-md-2 image1"></div>
-	<div class="col-md-8 middle"><h1>100 girls coding in Barcelona</h1><br>
-	<p>Ok, nearly a week has passed and we all have got to know a lot of people. But what do you actually know about what has been around us this week? Pick one of the quizzes to find out!</p> <br><br>
+	<div class="col-md-8 middle"><h1>The hipster quiz</h1><br>
+	<p style="margin-top:40px;">Ok, what is a hipster? <br>Do you know? </p> <br>
 
 		{% for quiz in quizzes %}
-    <p><a href="{% url 'quiz_page' quiz.quiz_number %}" class="button">
+    <p style="margin-top:40px";><a href="{% url 'quiz_page' quiz.quiz_number %}" class="button">
         {{ quiz.name }}
     </a></p>
 {% endfor %}
 
-	<a href="file:///Users/jobjo/Desktop/QUIZ%20TEMPLATES/quiz-templates/quiz.html"><h2>Quiz 1:</h2>HTML</a><br>
-	<a href="file:///Users/jobjo/Desktop/QUIZ%20TEMPLATES/quiz-templates/quiz.html"><h2>Quiz 2:</h2>Yoga</a><br>
-	<a href="file:///Users/jobjo/Desktop/QUIZ%20TEMPLATES/quiz-templates/quiz.html"><h2>Quiz 3:</h2>Barcelona</a>
-	<br>
 	</div>
 
 

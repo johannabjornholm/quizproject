@@ -16,19 +16,13 @@
 <div class="row">
 <div class="col-md-12"><h4>Johanna Björnholm</h4></div>
 	<div class="col-md-2 image1"></div>
-	<div class="col-md-8 middle"><h1>First question</h1><br>
-	<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h2>
-<form action="file:///Users/jobjo/Desktop/QUIZ%20TEMPLATES/quiz-templates/results.html">
- <h2> <input type="radio" value="answer1"> Answer 1</h2>
-   <h2> <input type="radio" value="answer2"> Answer 2</h2>
-     <h2> <input type="radio" value="answer3"> Answer 3</h2>
-
-  <br><br>
+	<div class="col-md-8 middle">
+<form>
   <h1>{{ question_number }}. {{ question }}</h1>
-	<p>{{ answer1 }}</p>
-	<p>{{ answer2 }}</p>
-	<p>{{ answer3 }}</p>
-	<p><a href="{% url 'completed_page' quiz_number %}" class="button">ok!</a></p> 
+	<p style="margin-top:40px;"><input type="radio" name="answer" value="answer1"> {{ answer1 }}</p><br>
+	<p> <input type="radio" name= "answer" value="answer2"> {{ answer2 }}</p><br>
+	<p><input type="radio" name="answer" value="answer3"> {{ answer3 }}</p><br>
+	<p style="margin-top:40px;"><a href="{% url 'completed_page' quiz_number %}" class="button">OK!</a></p> 
 
 </form>
 	
@@ -37,7 +31,7 @@
 
 
 	<div class="col-md-2 image2"></div>
-	<div class="col-md-12"><h4>@tjejerkodar</h4></div>
+	<div class="col-md-12"><h4>2016 Barcelona @tjejerkodar</h4></div>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

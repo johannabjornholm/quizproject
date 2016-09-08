@@ -17,12 +17,11 @@
 <div class="row">
 <div class="col-md-12"><h4>Johanna Björnholm</h4></div>
 	<div class="col-md-2 image1"></div>
-	<div class="col-md-8 middle"><h1>Woho! Well done!</h1><br>
-	<h3>You made it! You had 2/3 correct answers!</h3>
-	<h1>Du är klar och fick {{ correct }} av {{ total }}</h1>
+	<div class="col-md-8 middle">
+	<h1>You are awesome! You got {{ correct }} of {{ total }}</h1>
 	<i class="glyphicon glyphicon-thumbs-up"></i>
 
-	<br><p><a href="{% url 'start_page' %}" class="button">Till startsidan</a></p>
+	<br><p style="margin-top:40px;"><a href="{% url 'start_page' %}" class="button">Back to startpage</a></p>
 	</div>
 	
 
