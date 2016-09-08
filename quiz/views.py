@@ -4,7 +4,7 @@ quizzes = [
 	{
 		"quiz_number": 1,
    		"name": "WWHD – what would hipsters do?",
-	   	"description": "The hipster beard is a big trend these days and should stick around at least for the winter.  If you're unsure what a hipster beard is, you have seen it, I promise! Try to think about it for a minute and then try the quiz. You will rock!"
+	   	"description": "So, are the hipsters the ones who would only buy the cheapest drinks? Or are they the ones that are all into computers and tech? Or what was it… Well, give these questions a try and see how good you are!"
 	},
 	{
 		"quiz_number": 2,
@@ -14,7 +14,7 @@ quizzes = [
 	{
 		"quiz_number": 3,
    	    	"name": "Hipster beards",
-	    	"description": "So, are the hipsters the ones who would only buy the cheapest drinks? Or are they the ones that are all into computers and tech? Or what was it… Well, give these questions a try and see how good you are! "	},
+	    	"description": "The hipster beard is a big trend these days and should stick around at least for the winter.  If you're unsure what a hipster beard is, you have seen it, I promise! Try to think about it for a minute and then try the quiz. You will rock!"	},
 ]
 
 
