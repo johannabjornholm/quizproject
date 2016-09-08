@@ -38,7 +38,7 @@ h2
 { color: #fdff4c; 
 	font: 18pt/1 "Lucida Console"; 
 	font-weight: bold;
-	background: url("/Users/jobjo/Desktop/QUIZ TEMPLATES/quiz-templates/IMG/large.png");
+	background: url("/static/large.png");
 	background-size: 70px;
 	text-align: center; 
 	vertical-align: middle; 
@@ -50,7 +50,7 @@ h2
 .image1
 {
 	align-content: center;
-	background: url("/Users/jobjo/Desktop/QUIZ TEMPLATES/quiz-templates/IMG/palm2.png");
+	background: url("/static/palm2.png");
 	height: 100%;
 	min-height: 400px;
 	background-repeat: no-repeat;
@@ -60,7 +60,7 @@ h2
 .image2
 {
 	align-content: center;
-	background: url("/Users/jobjo/Desktop/QUIZ TEMPLATES/quiz-templates/IMG/palm3.png");
+	background: url("/static/palm3.png");
 	height: 100%;
 	min-height: 400px;
 	background-repeat: no-repeat;
