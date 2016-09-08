@@ -3,7 +3,7 @@ from django.shortcuts import render
 quizzes = [
 	{
 		"quiz_number": 1,
-   		"name": "WWAHD – what would a hipster do?",
+   		"name": "WWHD – what would hipsters do?",
 	   	"description": "The hipster beard is a big trend these days and should stick around at least for the winter.  If you're unsure what a hipster beard is, you have seen it, I promise! Try to think about it for a minute and then try the quiz. You will rock!"
 	},
 	{
