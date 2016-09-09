@@ -19,10 +19,10 @@
 	<div class="col-md-8 middle">
 <form action="{% url "answer_page" quiz.quiz_number question_number %}" method="post">{% csrf_token %}
   <h1>{{ question_number }}. {{ question }}</h1>
-	<p style="margin-top:40px;"><input type="radio" name="answer" value="answer1" checked> {{ answer1 }}</p><br>
-	<p> <input type="radio" name= "answer" value="answer2"> {{ answer2 }}</p><br>
-	<p><input type="radio" name="answer" value="answer3"> {{ answer3 }}</p><br>
-	<p style="margin-top:40px;"><a href="{% url 'completed_page' quiz_number %}" class="button">OK!</a></p> 
+	<p style="margin-top:40px;"><input type="radio" name="answer" value="1" checked> {{ answer1 }}</p><br>
+	<p> <input type="radio" name= "answer" value="2"> {{ answer2 }}</p><br>
+	<p><input type="radio" name="answer" value="3"> {{ answer3 }}</p><br>
+	<p style="margin-top:40px;"><button type="submit" class="button">OK!</button></p> 
 
 </form>
 	
